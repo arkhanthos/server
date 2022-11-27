@@ -30,5 +30,14 @@ app.use(express.static("uploads"));
  */
 app.use(`/api/${process.env.API_VER}`, userRoute);
 
+/**
+ * Configure Errors Middleware
+ */
+app.use((error, req, res, next) => {
+    res.status(500).json({
+        status: 'Error',
+        message: error.message,
+    });
+});
 
 module.exports = app;
