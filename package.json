@@ -1,0 +1,19 @@
+{
+  "name": "api-adquisiciones",
+  "version": "1.0.0",
+  "description": "Backend de API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkhanthos/server.git"
+  },
+  "author": "Osvaldo Rojas G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkhanthos/server/issues"
+  },
+  "homepage": "https://github.com/arkhanthos/server#readme"
+}
